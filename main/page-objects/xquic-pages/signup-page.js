@@ -28,7 +28,14 @@ class SignupPage{
 			.typeText(this.accessCode, code)
 			.click(this.certifyCheck)
 			.click(this.register)
-			.expect(this.success.exists).ok('Registration unsuccesful')
+			if(await Selector('span').withText('"Please check Spam/Junk folder if you do not receive an email within a few minutes."').exists){
+				console.log('Registration Sucessful.')
+			}else{
+				await t
+					.expect(this.success.exists).ok('Registration unsuccesful')
+				console.log('Registration Sucessful.')
+			}
+			
 
 		console.log('Registration Sucessful.')
 	}

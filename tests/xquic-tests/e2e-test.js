@@ -24,7 +24,7 @@ var serverId = 'zjtyfhio'
 var fname = fakerator.names.firstName()
 var lname = fakerator.names.lastName()
 var uname = fname + lname
-var email  = fname +'.'+serverId+'@mailosaur.io'
+var email  = uname + '.'+serverId+'@mailosaur.io'
 var message;
 
 //to handle location popup

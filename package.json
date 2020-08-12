@@ -37,7 +37,7 @@
     "testcafe-browser-provider-browserstack": "^1.13.0-alpha.1"
   },
   "scripts": {
-    "test": "node test-runner.js --browser=chrome --concurrency=1 --environment=BLUE --suite=test --deploy=0"
+    "e2e": "node test-runner.js --browser=chrome --concurrency=1 --environment=BLUE --suite=e2e"
   },
   "repository": {
     "type": "git"

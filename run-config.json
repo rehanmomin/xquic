@@ -4,5 +4,5 @@
     "custom":[""],
     "manual":["manual/*.js"],
     "pvt":[""],
-    "test":["xquic-tests/e2e-test.js"]
+    "e2e":["xquic-tests/e2e-test.js"]
     }
