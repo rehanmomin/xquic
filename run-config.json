@@ -1,0 +1,8 @@
+{
+    "all":[""],
+    "smoke":[""],
+    "custom":[""],
+    "manual":["manual/*.js"],
+    "pvt":[""],
+    "test":["xquic-tests/e2e-test.js"]
+    }

@@ -1,0 +1,8 @@
+{
+  "BLUE":{
+    "xquic":"https://asonemgmt.xquic.com/" 
+  },
+  "PROD":{
+    "xquic":"https://asonemgmt.xquic.com/"
+  }
+}
